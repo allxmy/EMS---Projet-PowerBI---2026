@@ -1,0 +1,82 @@
+## Présentation du projet
+
+1 - Nom du projet
+GreenTech Solutions est une société de services fictive spécialisée dans le développement d’applications et de solutions data.
+
+Dans un contexte marqué par l’accélération du changement climatique et la hausse des prix de l’énergie, la sobriété énergétique des logements est devenue un enjeu majeur en France.
+
+Dans ce cadre, Enedis a sollicité GreenTech Solutions afin de réaliser un état des lieux de la performance énergétique des logements d’une ville française.
+La mission confiée consiste à concevoir un tableau de bord Power BI permettant d’analyser la répartition des Diagnostics de Performance Énergétique (DPE) et d’en extraire des indicateurs clés.
+
+Le périmètre de cette étude porte sur la région Nouvelle-Aquitaine et vise à fournir une vision synthétique et exploitable :
+	•	de la distribution des classes DPE,
+	•	des caractéristiques associées aux logements,
+	•	et des tendances globales liées à la performance énergétique.
+
+Ce tableau de bord a pour objectif d’aider à la compréhension des enjeux énergétiques du parc immobilier et de servir d’outil d’aide à la décision pour les acteurs concernés.
+
+2 - Architecture générale
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A MODIFIER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Description rapide du flux de données :
+Sources de données
+      ↓
+Power Query (ETL)
+      ↓
+Modèle de données (Power BI)
+      ↓
+Mesures DAX
+      ↓
+Rapports & Visualisations
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A MODIFIER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Source de donnée :
+Source  |       Type        |      Description
+CSV     |  Base de données  |  Données de référence
+
+3 - Préparation des données (Power Query)
+
+Liste des transformations clés :
+	•	Nettoyage des valeurs nulles
+	•	Typage des colonnes
+	•	Jointures / merges
+	•	Colonnes calculées
+
+3.2 Points d’attention
+	•	Dépendances entre requêtes
+	•	Paramètres (chemins, environnements, credentials)
+	•	Impact sur les performances
+
+
+4. Modèle de données
+
+Description du modèle :
+	•	Type : étoile / flocon / hybride
+	•	Tables de faits
+	•	Tables de dimensions
+
+Table  |       Type        |      Description
+
+
+5. Mesures DAX
+
+Mesure    |      Description
+
+
+6. Rapports et visualisations
+
+6.1 Pages du rapport
+
+Page    |      Description
+
+
+7. Déploiement et utilisation
+
+7.1 Prérequis
+	•	Power BI Desktop (version recommandée)
+	•	Accès aux sources de données
+	•	Droits nécessaires (si Service)
+
+7.2 Ouverture du projet
+	1.	Cloner le repository
+	2.	Ouvrir le fichier .pbix
+	3.	Mettre à jour les paramètres de source
+	4.	Rafraîchir les données
