@@ -41,11 +41,11 @@ Aucune compétence technique n’est requise pour l’utilisation du tableau de 
 	•	Power BI Desktop
 	•	Power Query pour la préparation des données
 	•	DAX pour les mesures et indicateurs
-	• Canva pour la maquette
+	•   Canva pour la maquette
 
 
 # Structure du repository
 	•	dashboard.pbix
 	•	README.md
-    • doc_technique.md
-    • doc_fonctionnelle.md
+    •   doc_technique.md
+    •   doc_fonctionnelle.md
