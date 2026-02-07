@@ -10,8 +10,8 @@ Ce projet consiste en la conception d’un tableau de bord Power BI permettant d
 
 # Liens
 
-Vidéo présentation :
-Lien PowerOnline :
+Vidéo présentation : 
+Lien PowerOnline : https://app.powerbi.com/groups/me/reports/f4d0f205-71a3-4f65-ab82-f127ae0feea6?ctid=a51a6642-5911-4306-a13c-f4731ab9c63f&pbi_source=linkShare
 
 # Objectifs du tableau de bord
 	•	visualiser la répartition des logements par classe DPE (A à G),
