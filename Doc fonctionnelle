@@ -29,7 +29,7 @@ Le tableau de bord exploite des données relatives :
 
 Le tableau de bord est organisé en plusieurs pages, accessibles via le bandeau de navigation.
 
-4.1 Page d'accueil
+4.1 Page d'accueil/vue d'ensemble
 
 Cette page propose une lecture rapide et synthétique de la situation énergétique :
 	•	Nombre total de DPE
@@ -42,21 +42,26 @@ Cette page propose une lecture rapide et synthétique de la situation énergéti
 	•	Coût énergétique moyen par type d'énergie
 	•	Emissions GES par type de bâtiment
 
-Objectif : obtenir une compréhension immédiate et complète de l’état du parc immobilier.
+4.2 Page d'analyse territoriale
 
-4.2 Page d'analyseur de performance
+Cette page propose une analyse territoriale :
+	•	Nombre de logements par département
+	•	Top 5 des logements classé A-B par département
+	•	Top 5 des logements passoires par département
+	•	Vue d'ensemble sur les données par département
 
-Cette page propose une lecture approfondie sur des analyses de performance :
-	•	Evolution temporelle du nombre de DPE
-	•	Corrélation entre deux variables au choix
-	•	Comparaison entre deux variables au choix
-	•	Comparaison en chiffre
+4.3 Page de performance énergétique
 
-4.3 Page d'analyse géographique
+Cette page propose une analyse des performances énergétique :
+	•	On retrouve 4 KPI permettant principalement d'avoir des informations monétaire
+	•	Consommation moyenne par période de construction
+	•	Corrélation entre consommation énergétique et émissions GES par département
+	•	Coût de chauffage selon la performance énergétique
+	•	Part des 3 coûts principaux
 
-Cette page propose une lecture géographique de la situation énergétique :
-	•	Carte des villes de la Nouvelle Aquitaine (répartition des DPE)
-	•	Carte global de la Nouvelle Aquitaine (répartition des DPE)
+4.4 Page de carte
+
+Cette page propose une lecture géographique de la situation énergétique sur la région Nouvelle Aquitaine
 
 5. Filtres et interactions
 
