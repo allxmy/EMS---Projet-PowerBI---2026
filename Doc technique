@@ -42,27 +42,13 @@ Liste des transformations clés :
 	•	Paramètres (chemins, environnements, credentials)
 	•	Impact sur les performances
 
+6 - Pages du rapport
 
-4. Modèle de données
-
-Description du modèle :
-	•	Type : étoile / flocon / hybride
-	•	Tables de faits
-	•	Tables de dimensions
-
-Table  |       Type        |      Description
-
-
-5. Mesures DAX
-
-Mesure    |      Description
-
-
-6. Rapports et visualisations
-
-6.1 Pages du rapport
-
-Page    |      Description
+		Page    	    |      Description
+Vue d'ensemble			|	Page d'accueil/vue d'ensemble sur les données qu'importe le territoire
+Analyse territoriale	|	Analyse plus précise sur un territoire précis de Nouvelle Aquitaine
+Performance énergétique |	Analyse de la performance énergétique globale
+Carte 					|	Analyse géographique globale sur toute la Nouvelle Aquitaine
 
 
 
